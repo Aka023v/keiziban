@@ -8,7 +8,7 @@ $dbh = new PDO(
     'password'
 );
 
-$query = 'INSERT INTO `tweet` (`poster`, `tweet`) VALUES ($poster, $tweet)';
+$query = "INSERT INTO `tweet` (`poster`, `tweet`) VALUES ('$poster', '$tweet')";
 $dbh->query($query);
 header("Location: ./index.php");
 ?>
