@@ -11,3 +11,7 @@ docker-compose up -d
 ```
 docker-compose down
 ```
+
+## Dockerチートシート
+
+https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes-ja
